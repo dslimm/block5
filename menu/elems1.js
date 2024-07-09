@@ -4,7 +4,7 @@ function createElems1() {
 
     div.innerHTML = `  
         <div class="elems1">  
-            <a href="/menu/menu.html" aria-label="Выйти в меню">  
+            <a href="/block5/menu/menu.html" aria-label="Выйти в меню">  
                 <div class="back"></div>  
             </a>  
             <div class="sound"></div>  
@@ -19,7 +19,7 @@ createElems1();
 
 const audioElem = document.getElementById("music");
 const url = window.location.href;
-audioElem.src = "/music/menu.ogg";
+audioElem.src = "/block5/music/menu.ogg";
 audioElem.addEventListener("ended", function () {
     this.currentTime = 0;
     this.play();
