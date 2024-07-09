@@ -11,7 +11,7 @@ const levelsArr = [
     {
         id: "1",
         value: "2, 3, 5",
-        target: "10",
+        target: "100",
         createFixCub: [
             {
                 fixCubCard: "27",
@@ -26,7 +26,7 @@ const levelsArr = [
     {
         id: "2",
         value: "1, 4, 5, 10, ✘",
-        target: "20",
+        target: "200",
         startTimerGame: "0",
         getRandomValue: "1",
         gameProcess: "1",
@@ -35,7 +35,7 @@ const levelsArr = [
     {
         id: "3",
         value: "2, 3, 5, 10",
-        target: "20",
+        target: "200",
         startTimerGame: "0",
         getRandomValue: "7",
         gameProcess: "1",
@@ -44,7 +44,7 @@ const levelsArr = [
     {
         id: "4",
         value: "1, 2, 5, 10",
-        target: "30",
+        target: "300",
         startTimerGame: "0",
         getRandomValue: "4",
         gameProcess: "4",
@@ -54,7 +54,7 @@ const levelsArr = [
     {
         id: "5",
         value: "3, 4, 5, 10",
-        target: "30",
+        target: "300",
         startTimerGame: "0",
         getRandomValue: "5",
         gameProcess: "5",
@@ -64,7 +64,7 @@ const levelsArr = [
     {
         id: "6",
         value: "2, 3, 10",
-        target: "40",
+        target: "400",
         createFixCub: [
             {
                 fixCubCard: "28",
@@ -79,7 +79,7 @@ const levelsArr = [
     {
         id: "7",
         value: "2, 4, 5, 10, ⇆ ",
-        target: "40",
+        target: "400",
         startTimerGame: "0",
         getRandomValue: "2",
         gameProcess: "2",
@@ -88,7 +88,7 @@ const levelsArr = [
     {
         id: "8",
         value: "1, 4, 10",
-        target: "50",
+        target: "500",
         createSingleCub: [
             {
                 singleCubCard: "28",
@@ -103,7 +103,7 @@ const levelsArr = [
     {
         id: "9",
         value: "0, 2, 3, 4, 5, 10",
-        target: "50",
+        target: "500",
         startTimerGame: "0",
         getRandomValue: "6",
         gameProcess: "0",
@@ -112,7 +112,7 @@ const levelsArr = [
     {
         id: "10",
         value: "2, 4, 6, 10, ⤋",
-        target: "50",
+        target: "500",
         startTimerGame: "0",
         getRandomValue: "3",
         gameProcess: "3",
@@ -121,7 +121,7 @@ const levelsArr = [
     {
         id: "11",
         value: "4, 5, 6",
-        target: "20",
+        target: "200",
         createFixCub: [
             {
                 fixCubCard: "8",
@@ -140,7 +140,7 @@ const levelsArr = [
     {
         id: "12",
         value: "4, 5, 6, 10, ✘",
-        target: "30",
+        target: "300",
         startTimerGame: "0",
         getRandomValue: "1",
         gameProcess: "1",
@@ -149,7 +149,7 @@ const levelsArr = [
     {
         id: "13",
         value: "3, 5, 7, 10",
-        target: "30",
+        target: "300",
         createSingleCub: [
             {
                 singleCubCard: "16",
@@ -176,7 +176,7 @@ const levelsArr = [
     {
         id: "14",
         value: "3, 5, 6, 10",
-        target: "40",
+        target: "400",
         startTimerGame: "0",
         getRandomValue: "4",
         gameProcess: "4",
@@ -186,7 +186,7 @@ const levelsArr = [
     {
         id: "15",
         value: "4, 5, 7, 10",
-        target: "40",
+        target: "400",
         startTimerGame: "0",
         getRandomValue: "5",
         gameProcess: "5",
@@ -196,7 +196,7 @@ const levelsArr = [
     {
         id: "16",
         value: "3, 7, 10",
-        target: "50",
+        target: "500",
         createFixCub: [
             {
                 fixCubCard: "7",
@@ -215,7 +215,7 @@ const levelsArr = [
     {
         id: "17",
         value: "5, 6, 7, 10, ⇆ ",
-        target: "50",
+        target: "500",
         startTimerGame: "0",
         getRandomValue: "2",
         gameProcess: "2",
@@ -224,7 +224,7 @@ const levelsArr = [
     {
         id: "18",
         value: "4, 6, 10",
-        target: "60",
+        target: "600",
         createSingleCub: [
             {
                 singleCubCard: "7",
@@ -243,7 +243,7 @@ const levelsArr = [
     {
         id: "19",
         value: "0, 3, 5, 6, 10",
-        target: "60",
+        target: "600",
         startTimerGame: "0",
         getRandomValue: "6",
         gameProcess: "0",
@@ -252,7 +252,7 @@ const levelsArr = [
     {
         id: "20",
         value: "4, 5, 6, 7, 10, ⤋",
-        target: "70",
+        target: "700",
         createSingleCub: [
             {
                 singleCubCard: "17",
@@ -287,7 +287,7 @@ const levelsArr = [
     {
         id: "21",
         value: "5, 7, 8",
-        target: "30",
+        target: "300",
         createFixCub: [
             {
                 fixCubCard: "7",
@@ -310,7 +310,7 @@ const levelsArr = [
     {
         id: "22",
         value: "5, 6, 9, 10, ✘",
-        target: "40",
+        target: "400",
         createFixCub: [
             {
                 fixCubCard: "5",
@@ -341,7 +341,7 @@ const levelsArr = [
     {
         id: "23",
         value: "5, 7, 8, 10",
-        target: "40",
+        target: "400",
         startTimerGame: "0",
         getRandomValue: "7",
         gameProcess: "1",
@@ -350,7 +350,7 @@ const levelsArr = [
     {
         id: "24",
         value: "5, 6, 7, 10",
-        target: "50",
+        target: "500",
         createSingleCub: [
             {
                 singleCubCard: "9",
@@ -382,7 +382,7 @@ const levelsArr = [
     {
         id: "25",
         value: "5, 7, 9, 10",
-        target: "50",
+        target: "500",
         startTimerGame: "0",
         getRandomValue: "5",
         gameProcess: "5",
@@ -392,7 +392,7 @@ const levelsArr = [
     {
         id: "26",
         value: "7, 8, 10",
-        target: "60",
+        target: "600",
         createFixCub: [
             {
                 fixCubCard: "6",
@@ -429,7 +429,7 @@ const levelsArr = [
     {
         id: "27",
         value: "5, 8, 9, 10, ⇆ ",
-        target: "70",
+        target: "700",
         startTimerGame: "0",
         getRandomValue: "2",
         gameProcess: "2",
@@ -438,7 +438,7 @@ const levelsArr = [
     {
         id: "28",
         value: "6, 9, 10",
-        target: "80",
+        target: "800",
         createSingleCub: [
             {
                 singleCubCard: "8",
@@ -471,7 +471,7 @@ const levelsArr = [
     {
         id: "29",
         value: "0, 5, 7, 8, 10",
-        target: "90",
+        target: "900",
         createSingleCub: [
             {
                 singleCubCard: "5",
@@ -534,7 +534,7 @@ const levelsArr = [
     {
         id: "30",
         value: "5, 7, 8, 9, 10, ⤋",
-        target: "90",
+        target: "900",
         createFixCub: [
             {
                 fixCubCard: "19",
@@ -569,7 +569,7 @@ const levelsArr = [
     {
         id: "31",
         value: "5, 8, 10, 11",
-        target: "40",
+        target: "400",
         createFixCub: [
             {
                 fixCubCard: "8",
@@ -597,7 +597,7 @@ const levelsArr = [
     {
         id: "32",
         value: "5, 10, 12, 13, ✘",
-        target: "50",
+        target: "500",
         startTimerGame: "0",
         getRandomValue: "1",
         gameProcess: "1",
@@ -606,7 +606,7 @@ const levelsArr = [
     {
         id: "33",
         value: "5, 10, 11, 14",
-        target: "50",
+        target: "500",
         createSingleCub: [
             {
                 singleCubCard: "6",
@@ -641,7 +641,7 @@ const levelsArr = [
     {
         id: "34",
         value: "5, 9, 10, 13",
-        target: "60",
+        target: "600",
         startTimerGame: "0",
         getRandomValue: "4",
         gameProcess: "4",
@@ -651,7 +651,7 @@ const levelsArr = [
     {
         id: "35",
         value: "5, 10, 11, 12",
-        target: "60",
+        target: "600",
         createFixCub: [
             {
                 fixCubCard: "25",
@@ -683,7 +683,7 @@ const levelsArr = [
     {
         id: "36",
         value: "9, 10, 11",
-        target: "70",
+        target: "700",
         createFixCub: [
             {
                 fixCubCard: "29",
@@ -710,7 +710,7 @@ const levelsArr = [
     {
         id: "37",
         value: "10, 12, 14, 15, ⇆ ",
-        target: "80",
+        target: "800",
         createSingleCub: [
             {
                 singleCubCard: "15",
@@ -745,7 +745,7 @@ const levelsArr = [
     {
         id: "38",
         value: "10, 11, 14",
-        target: "90",
+        target: "900",
         createSingleCub: [
             {
                 singleCubCard: "29",
@@ -772,7 +772,7 @@ const levelsArr = [
     {
         id: "39",
         value: "0, 9, 11, 13, 15",
-        target: "100",
+        target: "1000",
         createSingleCub: [
             {
                 singleCubCard: "28",
@@ -819,7 +819,7 @@ const levelsArr = [
     {
         id: "40",
         value: "10, 12, 13, 14, 15, ⤋",
-        target: "100",
+        target: "1000",
         createFixCub: [
             {
                 fixCubCard: "19",
@@ -920,7 +920,7 @@ const levelsArr = [
     {
         id: "41",
         value: "5, 9, 10, 11",
-        target: "50",
+        target: "500",
         createFixCub: [
             {
                 fixCubCard: "9",
@@ -952,7 +952,7 @@ const levelsArr = [
     {
         id: "42",
         value: "8, 10, 12, 15, ✘",
-        target: "60",
+        target: "600",
         createSingleCub: [
             {
                 singleCubCard: "17",
@@ -983,7 +983,7 @@ const levelsArr = [
     {
         id: "43",
         value: "10, 11, 14, 15",
-        target: "70",
+        target: "700",
         createFixCub: [
             {
                 fixCubCard: "9",
@@ -1026,7 +1026,7 @@ const levelsArr = [
     {
         id: "44",
         value: "5, 10, 12, 14",
-        target: "80",
+        target: "800",
         createSingleCub: [
             {
                 singleCubCard: "6",
@@ -1070,7 +1070,7 @@ const levelsArr = [
     {
         id: "45",
         value: "5, 10, 13, 16",
-        target: "90",
+        target: "900",
         createFixCub: [
             {
                 fixCubCard: "7",
@@ -1142,7 +1142,7 @@ const levelsArr = [
     {
         id: "46",
         value: "14, 15, 16",
-        target: "100",
+        target: "1000",
         createFixCub: [
             {
                 fixCubCard: "14",
@@ -1199,7 +1199,7 @@ const levelsArr = [
     {
         id: "47",
         value: "10, 11, 13, 15, ⇆ ",
-        target: "110",
+        target: "1100",
         createSingleCub: [
             {
                 singleCubCard: "15",
@@ -1250,7 +1250,7 @@ const levelsArr = [
     {
         id: "48",
         value: "10, 11, 14",
-        target: "130",
+        target: "1300",
         createSingleCub: [
             {
                 singleCubCard: "8",
@@ -1315,7 +1315,7 @@ const levelsArr = [
     {
         id: "49",
         value: "0, 11, 12, 13, 14",
-        target: "140",
+        target: "1400",
         createSingleCub: [
             {
                 singleCubCard: "18",
@@ -1366,7 +1366,7 @@ const levelsArr = [
     {
         id: "50",
         value: "10, 14, 15, 16, ⤋",
-        target: "150",
+        target: "1500",
         createFixCub: [
             {
                 fixCubCard: "9",
