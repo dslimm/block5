@@ -1,15 +1,14 @@
 @font-face {
     font-family: "Rubik Moonrocks";
-    src: url("/fonts/RubikMoonrocks-Regular.ttf");
+    src: url("/block5/fonts/RubikMoonrocks-Regular.ttf");
 }
 @font-face {
     font-family: "Rubik Bubbles";
-    src: url("/fonts/RubikBubbles-Regular.ttf");
+    src: url("/block5/fonts/RubikBubbles-Regular.ttf");
 }
 body {
     display: flex;
     flex-direction: column;
-    /* max-height: 100vh; */
     justify-content: center;
     padding: 0;
     margin: 5vh 0 0 0;
