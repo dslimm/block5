@@ -272,12 +272,12 @@ const audioElem = document.getElementById("music");
 const url = window.location.href;
 
 if (!url.includes("?id=")) {
-    audioElem.src = "/music/train.ogg";
+    audioElem.src = "/block5/music/train.ogg";
 } else {
     const levelId = url.split("?id=")[1];
     const lastDigit = levelId ? parseInt(levelId.slice(-1), 10) : null;
     const trackNum = lastDigit && lastDigit !== 0 ? lastDigit : 10;
-    audioElem.src = `/music/${trackNum}.ogg`;
+    audioElem.src = `/block5/music/${trackNum}.ogg`;
 }
 audioElem.addEventListener("ended", function () {
     this.currentTime = 0;
